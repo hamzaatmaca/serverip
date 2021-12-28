@@ -1,5 +1,3 @@
-//https://remote-ip-server.herokuapp.com/api/remoteserver/v1/client/176.53.69.112
-//https://remote-ip-server.herokuapp.com/api/remoteserver/v1/client/89.252.187.235
 fetch('https://ipapi.co/json/')
 .then(function(response) {
 	return response.json();
@@ -24,7 +22,7 @@ fetch('https://ipapi.co/json/')
 		return response.json();
 	}
 
-	postURL('https://remote-ip-server.herokuapp.com/api/remoteserver/v1/ip',data)
+	postURL('https://------- Uppsss!! This is Secret ----------',data)
 	.then(data => {
 		console.log(data); 
 	})
