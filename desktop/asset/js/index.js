@@ -1,4 +1,4 @@
-fetch('https://remote-ip-server.herokuapp.com/api/remoteserver/v1/client/176.53.69.112')
+fetch('https://--------!!!Upppsss !!!!! This is Secret')
   .then(response => response.json())
   .then(param =>{
 
@@ -10,8 +10,8 @@ fetch('https://remote-ip-server.herokuapp.com/api/remoteserver/v1/client/176.53.
     /*********************************************************/
 
     /************ MY IP ********************/
-    const ownIp1 = "95.5.111.179";
-    const ownIp2 = "78.185.255.173";
+    const ownIp1 = "XXXXXXXXXXXXXX";
+    const ownIp2 = "XXXXXXXXXXXXXX";
     /***************************************/
     
     /************** TIME VARIABLES **********/
