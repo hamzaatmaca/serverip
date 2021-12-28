@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Büyü Ve Cin Musallatına Şifa</title>
+	<link rel="stylesheet" type="text/css" href="./asset/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./asset/css/index.css">
+	<script src="https://kit.fontawesome.com/5b17f452e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col-sm-12 col-md-12">
+				<!-- As a link -->
+				<nav class="navbar navbar-light bg-light">
+					<div class="container-fluid">
+						<h2><i class="fas fa-network-wired"></i> Toplam Ziyaretçi Sayısı ( Net Değer )</h2>
+						<h1 id="total" class="me-4"></h1>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row mt-5 ms-3">
+			<div class="col-sm-12">
+				<h3 id="details"> <i class="fas fa-flag"></i> Rapor - Ziyaretçi Bilgileri</h3>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div id="list" class="col-sm-6 col-md-6">
+				<h4 class="text-center"> Tüm Girişler </h4>
+				<!---------- COME FROM DATABASE ---------->
+			</div>
+			<div id="saltList" class="col-sm-6 col-md-6">
+				<h4 class="text-center"> Net Girişler </h4>
+			</div>
+		</div>
+	</div>
+	<script type="module" src="./asset/js/index.js"></script>
+	<script src="./asset/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+html,body{
+	margin: 0;
+	padding: 0;
+	background-color: #201E1D!important;
+	
+}
+
+.navbar{
+	border-radius: 2px;
+	
+	letter-spacing: 2px;
+	background-color: #201E1D!important;
+	color: gold;
+}
+
+#details{
+	color: gold;
+	letter-spacing: 2px;
+}
+hr{
+	color: yellow;
+	height: 3px!important;
+}
+
+i,span,h4{
+	color: gold!important;
+}
+
+
+ul li{
+	color: gold;
+	list-style-type: none;
+	color: white;
+	margin: 5px;
+}
+.client{
+	border-bottom: 1px solid gold;
+
+	padding: 5px;
+	line-height: 1.5;
+	margin: 2px;
+}
